@@ -52,6 +52,9 @@ template {
    spec {
       containers {
       image = "us-west2-docker.pkg.dev/devops-399708/website-tools/wordpress-image"
+      ports {
+        container_port = 80
+      }
       }
    }
 
